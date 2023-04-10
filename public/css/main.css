@@ -56,8 +56,8 @@ nav a{
 nav a:hover{
     background-color: var(--buttonhovercolor);
     
+    /* color: var(--lavc); */
     color: var(--lavc);
-    color: #fffffe;
     border-radius: 50%;
     text-decoration: none;
     
@@ -80,9 +80,13 @@ nav a.lav{
 
 nav a.lav:hover{
     color: #fffffe;
+    color: var(--lavc);
+
 }
 nav a.search:hover{
     color: #fffffe;
+    color: var(--lavc);
+
 }
 
 

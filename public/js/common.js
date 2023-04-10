@@ -237,6 +237,7 @@ function timeDifference(current, previous) {
     var msPerDay = msPerHour * 24;
     var msPerMonth = msPerDay * 30;
     var msPerYear = msPerDay * 365;
+  
 
     var elapsed = current - previous;
 
