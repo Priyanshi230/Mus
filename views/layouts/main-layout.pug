@@ -17,7 +17,7 @@ html(lang="en")
             var userLoggedIn = !{userLoggedInJs};
         .wrapper
             .row 
-                nav.col-2
+                nav.col-1
                     a.lav(href ="/")
                         i.fa-solid.fa-icons
                     a(href="/")
@@ -38,7 +38,7 @@ html(lang="en")
                     //- becayse 2 we will have for nav + 8 for mainsection + 2 for third col hence 12
                     //- sum of all three will alwaays be 12
                     //- hence lh-6 is done to minimize the mainsection when screen size is large
-                .mainSectionContainer.col-10.col-md-8.col-lg-8
+                .mainSectionContainer.col-10.col-md-10.col-lg-8
                     .titleContainer 
                         h1 #{pageTitle}
                     block content 
@@ -46,7 +46,7 @@ html(lang="en")
                 //- d-none will hide it from all size of screen 
                 //- d.none.d-md-block will display the block
                 //- col.-lg-4 menas it increases the size of third col to 4 when screen is large
-                .d-none.d-md-block.col-md-2.col.lg-2
+                .d-none.d-md-block.col-md-2.col.lg-1
                   
         script(src='https://kit.fontawesome.com/85404227e2.js' crossorigin='anonymous')
         script(src='https://kit.fontawesome.com/2b1cb0f7ab.js' crossorigin='anonymous')
