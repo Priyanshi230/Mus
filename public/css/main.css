@@ -24,7 +24,8 @@
     outline: none !important;
     /* background-color: #ff8906; */
     /* background-color: #FFEA61; */
-    
+    background-color: aliceblue;
+    text-decoration-color: black;
 }
 
 h1{
@@ -195,7 +196,8 @@ nav a.search:hover{
 
 .username,
 .date{
-    color: var(--text);
+    color: black;
+
 }
 
 .displayName{
