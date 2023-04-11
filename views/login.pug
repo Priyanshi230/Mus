@@ -1,8 +1,13 @@
 extends layouts/login-layout.pug
 
 block content
+    .mainhead 
+        p MuseMosaic 
     .loginContainer
-        h1 Login
+        img#myVideo(src="/images/bg.jpeg", alt="", srcset="")
+
+
+        h2 Login
         form(method="post")
 
             p.errorMessage #{errorMessage}
@@ -15,3 +20,5 @@ block content
 
             input(type="submit", value="Login")
         a(href="/register") Need an account? Register here.
+        .bottomText
+            p This page is protected by reCAPTCHA to ensure you're not a bot

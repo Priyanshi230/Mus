@@ -1,8 +1,11 @@
 extends layouts/login-layout.pug
 
 block content
+    .mainhead 
+        p MuseMosaic
     .loginContainer
-        h1 Register
+        img#myVideo(src="/images/bg.jpeg", alt="", srcset="")
+        h2 Register
         form#registerForm(method="post", onsubmit="event.preventDefault(); validateForm();")
 
             p.errorMessage #{errorMessage}
